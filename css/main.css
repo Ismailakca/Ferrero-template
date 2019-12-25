@@ -1,0 +1,190 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css";
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+.section{
+    background: url(../img/background.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.wrapper{
+  background: linear-gradient(50deg,rgba(152,72,156,.5),rgba(208,55,132,.9));
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.header h1::after{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #ffca4b;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+.nav {
+    display: flex;
+    width: 505px;
+    height: auto;
+    justify-content: space-between;
+}
+.hr{
+    width: 2px;
+    height: 30px;
+    background-color: #ffca4b;
+}
+.nav .about{
+    width: 300px;
+    height: auto;
+}
+.nav .about ul{
+   display: flex;
+   justify-content: space-between;
+}
+.nav .about ul li a{
+    color: #d185ba;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    transition: .5s color;   
+}
+.nav .about ul li a:hover{
+    color: #f0daea;
+}
+.nav .social{
+    width: 135px;
+    height: auto;
+}
+.nav .social ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav .social ul li i{
+    color: #dd97c1;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s color;    
+}
+.nav .social ul li i:hover{
+    color:#f0daea;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
+}
+.contact .contact-right {
+    height: auto;
+    width: 530px;
+}
+.contact .contact-right .contact-slogan h1{
+    color: #ffca4b;
+    font-size: 60px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.contact .contact-right .contact-slogan h2{
+    padding-top: 10px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+}
+.contact .contact-right .contact-text p{
+    padding-top: 15px;
+    color: #dc8bbc;
+    font-size: 32px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.contact .contact-right .contact-form{
+    padding-top: 50px;
+}
+
+.contact-form input{
+    background: none;
+    color: #fff; 
+}
+.contact-form input::placeholder{
+    color: #e59cc6;
+    font-size: 20px;
+}
+.contact-form input.email{
+    display: block;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+}
+.form-file{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-file input.pro-sum{
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+}
+.form-file input.input-file{
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+
+}
+.form-file2{
+    display: flex;
+    padding-right: 50px;
+}
+.form-file2 .btn{
+    background: none;
+    height: 30px;
+    color: #e59cc6;
+    line-height: 30px;
+    font-size: 20px;
+}
+.cizgi{
+    width: 503px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.cizgi .hr1{
+    width: 300px;
+    background-color: #e59cc6;
+    height: 2px;
+}
+.cizgi .hr2{
+    width: 100px;
+    background-color: #e59cc6;
+    height: 2px;
+}
+.btn-2{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border-radius:20px;
+    background:#fff;
+    color: #e56ca3;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
