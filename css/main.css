@@ -6,7 +6,7 @@ body {
 .section{
     background: url(../img/background.jpg);
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
